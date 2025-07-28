@@ -13,7 +13,12 @@
             <div class="logo">
                 <a href="#">3407R Redemption</a>
             </div>
-            <ul>
+            <button class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#robots">Our Robots</a></li>
@@ -34,31 +39,32 @@
         <section id="about">
             <h2>About Us</h2>
             <div class="about-content">
-                <div class="team-history">
-                    <h3>Our Story</h3>
-                    <p>Founded in 2018, Team 3407R, Redemption, is a private VEX Robotics team composed of passionate and dedicated high school students. We are committed to achieving excellence in robotics by designing, building, and programming innovative robots to compete in the VEX Robotics Competition. Our mission is to develop critical skills in STEM, collaboration, and strategic thinking.</p>
-                </div>
                 <h3>Meet the Team</h3>
                 <div class="team-members">
                     <div class="team-member">
-                        <img src="https://via.placeholder.com/150" alt="Team Member 1">
-                        <h4>Member Name</h4>
-                        <p>Role (e.g., Lead Builder)</p>
+                        <img src="https://via.placeholder.com/150" alt="Shravan">
+                        <h4>Shravan</h4>
+                        <p>Role</p>
                     </div>
                     <div class="team-member">
-                        <img src="https://via.placeholder.com/150" alt="Team Member 2">
-                        <h4>Member Name</h4>
-                        <p>Role (e.g., Lead Programmer)</p>
+                        <img src="https://via.placeholder.com/150" alt="Preston">
+                        <h4>Preston</h4>
+                        <p>Role</p>
                     </div>
                     <div class="team-member">
-                        <img src="https://via.placeholder.com/150" alt="Team Member 3">
-                        <h4>Member Name</h4>
-                        <p>Role (e.g., Driver)</p>
+                        <img src="https://via.placeholder.com/150" alt="Antoine">
+                        <h4>Antoine</h4>
+                        <p>Role</p>
                     </div>
                     <div class="team-member">
-                        <img src="https://via.placeholder.com/150" alt="Team Member 4">
-                        <h4>Member Name</h4>
-                        <p>Role (e.g., Notebooker)</p>
+                        <img src="https://via.placeholder.com/150" alt="Brandon">
+                        <h4>Brandon</h4>
+                        <p>Role</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://via.placeholder.com/150" alt="Titan">
+                        <h4>Titan</h4>
+                        <p>Role</p>
                     </div>
                 </div>
             </div>
@@ -135,5 +141,13 @@
         </section>
     </main>
 
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
