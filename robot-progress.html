@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Progress - 3407R Redemption Robotics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="main.html">3407R Redemption</a>
+            </div>
+            <button class="menu-toggle" id="mobile-menu">
+                Menu
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="main.html#home">Home</a></li>
+                <li><a href="main.html#about">About Us</a></li>
+                <li><a href="main.html#robots">Our Robots</a></li>
+                <li><a href="main.html#competitions">Competitions</a></li>
+                <li><a href="main.html#sponsors">Sponsors</a></li>
+                <li><a href="main.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="progress">
+            <h2>Robot Progress: Redemption - Push Back (2025-2026)</h2>
+            <div class="progress-update">
+                <h3>Update Title (e.g., Drivetrain Complete)</h3>
+                <p><em>Date: [Date of Update]</em></p>
+                <img src="https://via.placeholder.com/800x600" alt="Progress photo">
+                <p>[Detailed description of the progress made. This could include information about the design process, challenges faced, and solutions implemented.]</p>
+            </div>
+            <div class="progress-update">
+                <h3>Update Title (e.g., Intake Prototyping)</h3>
+                <p><em>Date: [Date of Update]</em></p>
+                <img src="https://via.placeholder.com/800x600" alt="Progress photo">
+                <p>[Detailed description of the progress made. This could include information about the design process, challenges faced, and solutions implemented.]</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
