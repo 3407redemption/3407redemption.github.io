@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Progress: Push Back V1 - 3407R Redemption Robotics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">3407R Redemption</a>
+            </div>
+            <button class="menu-toggle" id="mobile-menu">
+                Menu
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#robots">Our Robots</a></li>
+                <li><a href="index.html#competitions">Competitions</a></li>
+                <li><a href="index.html#sponsors">Sponsors</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="progress">
+            <h2>Robot Progress: Push Back V1</h2>
+            <div class="progress-update">
+                <h3>Chassis Complete</h3>
+                <p><em>Date: </em></p>
+                <img src="drivetrain-v1.png" alt="Chassis Complete">
+                <p>We have completed the chassis that will be the base for the rest of our robot. It uses a 36:48 gear ratio which means an RPM of 450.</p>
+            </div>
+            <div class="progress-update">
+                <h3>Intake Complete</h3>
+                <p><em>Date: </em></p>
+                <img src="intake-v1.png" alt="Intake Complete">
+                <p>The intake is now done, and we are able to score on all 4 goals. It uses rollers made from sprockets and rubber bands except for at the top where it uses flexwheels.</p>
+            </div>
+            <div class="progress-update">
+                <h3>Hoarder Complete</h3>
+                <p><em>Date: </em></p>
+                <p>We have now also completed the hoarder which we will use to store up to 15 blocks. The structure is made of standoffs and is covered with mesh so the blocks don't fall out. There is also an indexer that allows for us to intake and outtake from the hoarder.</p>
+            </div>
+            <div class="progress-update">
+                <h3>Scraper Complete</h3>
+                <p><em>Date: </em></p>
+                <p>We have completed the scraper which we will use to empty out loaders for the blocks. It uses polycarbonate to create a wedge that makes the blocks come out.</p>
+            </div>
+            <div class="progress-update">
+                <h3>Robot Complete</h3>
+                <p><em>Date: </em></p>
+                <p></p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

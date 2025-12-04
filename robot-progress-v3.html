@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Progress: Push Back V3 - 3407R Redemption Robotics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">3407R Redemption</a>
+            </div>
+            <button class="menu-toggle" id="mobile-menu">
+                Menu
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#robots">Our Robots</a></li>
+                <li><a href="index.html#competitions">Competitions</a></li>
+                <li><a href="index.html#sponsors">Sponsors</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="progress">
+            <h2>Robot Progress: Push Back V3</h2>
+            <div class="progress-update">
+                <h3>Drivetrain Completed & Driving</h3>
+                <p><em>Date: [Date]</em></p>
+                <img src="drivetrain-v3.png" alt="Drivetrain completed and driving">
+                <p>Details about Push Back V3 drivetrain progress.</p>
+            </div>
+            <div class="progress-update">
+                <h3>First Stage Intake Finished</h3>
+                <p><em>Date: [Date]</em></p>
+                <img src="intake-v3.png" alt="First Stage Intake Finished">
+                <p>Details about Push Back V3 intake progress.</p>
+            </div>
+            <div class="progress-update">
+                <h3>Second Stage Intake Rollers Complete</h3>
+                <p><em>Date: [Date]</em></p>
+                <p>Details about Push Back V3 second stage intake progress.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
